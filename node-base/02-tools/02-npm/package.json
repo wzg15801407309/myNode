@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "runjs": "node ./03-scripts/scripts01.js && node ./03-scripts/scripts02.js",
+    "test":"node ./03-scripts/test.js",
+    "build":"echo $npm_package_config_env"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "lodash": "^4.17.21"
+  },
+
+  "config":{
+    "env":"自定义的env"
   }
 }
