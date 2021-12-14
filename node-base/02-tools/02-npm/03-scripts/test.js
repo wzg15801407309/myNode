@@ -20,3 +20,10 @@
 * "dev":"cross-env  NODE_ENV=develoment 运行脚本 ",cross-env是个包 主要用来处理 跨平台的问题  就是 mac 和window
 */
 console.log(process.env.npm_package_config_env);
+
+
+// npm 安装git上发布的包 两个方式 适合安装公司内部的git服务器上的项目
+/**
+ * 1、git install git+https://github地址 
+ * 2、git install git+ssh://github地址 
+ */
