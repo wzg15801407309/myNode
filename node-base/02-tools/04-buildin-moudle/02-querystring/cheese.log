@@ -1,0 +1,13 @@
+[2021-12-20T11:55:47.398] [DEBUG] cheese - [Object: null prototype] {}
+[2021-12-20T11:56:15.430] [DEBUG] cheese - [Object: null prototype] { is: '2', name: 'tongy', from: '北京' }
+[2021-12-20T11:57:06.256] [DEBUG] cheese - [Object: null prototype] { is: '2', name: 'tongy', from: '北京' }
+[2021-12-20T11:57:06.258] [DEBUG] cheese - is%3D2%26name%3Dtongy%26from%3D%E5%8C%97%E4%BA%AC
+[2021-12-20T11:57:06.258] [DEBUG] cheese - is=2&name=tongy&from=北京
+[2021-12-20T11:59:06.166] [DEBUG] cheese - [Object: null prototype] { is: '2', name: 'tongy', from: '北京' }
+[2021-12-20T11:59:06.168] [DEBUG] cheese - is%3D2%26name%3Dtongy%26from%3D%E5%8C%97%E4%BA%AC
+[2021-12-20T11:59:06.168] [DEBUG] cheese - is=2&name=tongy&from=北京
+[2021-12-20T11:59:06.168] [DEBUG] cheese - is/2:name/tongy:from/%E5%8C%97%E4%BA%AC
+[2021-12-20T11:59:06.169] [DEBUG] cheese - [Object: null prototype] {}
+[2021-12-20T11:59:59.300] [DEBUG] cheese - is/2:name/tongy:from/%E5%8C%97%E4%BA%AC
+[2021-12-20T11:59:59.301] [DEBUG] cheese - [Object: null prototype] { id: '2', name: 'tongy', from: '北京' }
+[2021-12-20T14:06:39.996] [DEBUG] cheese - is=2&name=tongy&from=北京
