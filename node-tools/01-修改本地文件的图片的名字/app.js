@@ -29,6 +29,7 @@ function changPicName(definiteArr){
       const picLen = (files.length).toString().length+1;
       // 图片当前的位置
       files.forEach((filename,index) => {
+        console.log(index);
         if(filename.indexOf('.jpg') != -1){
           let oldPath = loadPath +'/'+filename;
           let name = '/'+tempStr.substring(0,picLen - index.toString().length)+index+'.jpg';
