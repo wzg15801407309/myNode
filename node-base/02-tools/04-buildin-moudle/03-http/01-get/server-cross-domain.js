@@ -1,7 +1,6 @@
 const logger = require('../../utils/log');
 
 const http = require('http');
-const https = require('https');
 const querystring = require('querystring');
 
 const server = http.createServer((request,response)=>{
