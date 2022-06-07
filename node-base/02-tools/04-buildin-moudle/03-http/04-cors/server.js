@@ -7,7 +7,11 @@ const server = http.createServer((req,res)=>{
   console.log(urlobj);
   switch(urlobj.pathname){
     case '/api/data':
-      res.write(`${urlobj.query.cd}('hello')`);
+      res.writeHead(200,{
+          "Content-Type":"application/json",
+          "Access-Control-Allow-Origin":'*'
+        });
+      res.write('{"ret":true,"data":"core test"}');
       break;
     default:
       res.write('page not find.');
