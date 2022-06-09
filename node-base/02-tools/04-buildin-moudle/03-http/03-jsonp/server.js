@@ -17,3 +17,4 @@ const server = http.createServer((req,res)=>{
 server.listen('8080',()=>{
   console.log('http://localhost:8080/');
 });
+/** 解决跨域的方式：1:jsonp 2:cors 3:代理的方式(http-proxy-middware) */
