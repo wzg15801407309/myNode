@@ -51,3 +51,6 @@ const content = fs.readFileSync(url);
 console.log('同步读取=',content.toString());
 
 // 异步  操作 参考node的fs的文档
+
+
+// fs.watch方法可以检测到文件的删除和修改/wathchFile（推荐）
