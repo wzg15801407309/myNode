@@ -12,6 +12,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.11",
     "http-proxy-middleware": "^2.0.6",
-    "log4js": "^6.3.0"
+    "log4js": "^6.3.0",
+    "mime": "^3.0.0"
   }
 }
